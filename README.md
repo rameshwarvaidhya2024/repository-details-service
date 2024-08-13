@@ -1,5 +1,5 @@
 # repository-details-service
-REST service to fetch GitHub repository details using owner and repository name. This application can fetch details of the repositories that are public.
+REST service to fetch GitHub repository details using owner and repository name. This demo application can fetch details of the repositories that are public.
 
 # Building
 
@@ -21,4 +21,8 @@ To start the application, please use below maven command
 
 mvn spring-boot:run
 
-(NOTE: Please use credentials - username: DemoUser and password: Test12345 to login and use the application)
+(NOTE: This application runs on port number 8083. You can modify the port number in configuration file. Please use credentials - username: DemoUser and password: Test12345 to login and use the application)
+
+Endpoint Details
+
+GET /repositories/{owner}/{repository­name}
