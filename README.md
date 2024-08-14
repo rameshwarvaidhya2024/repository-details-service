@@ -28,3 +28,7 @@ mvn spring-boot:run
 Endpoint Details 
 
 GET /repositories/{owner}/{repository­name}
+
+Please use below maven command to activate local profile that connects application with local instance of redis server
+
+mvn spring-boot:run -Dspring-boot.run.profiles=local
