@@ -1,6 +1,8 @@
 # repository-details-service
 REST service to fetch GitHub repository details using owner and repository name. This demo application can fetch details of the repositories that are public.
 
+Application uses REDIS to cache repository details to improve performance.
+
 # Building
 
 Prerequisites:
