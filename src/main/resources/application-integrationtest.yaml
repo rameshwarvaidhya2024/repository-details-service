@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: repository-details-service
+  cache:
+    type: redis
+  data:  
+    redis:
+      host: redis-15367.c334.asia-southeast2-1.gce.redns.redis-cloud.com
+      port: 15367
+      password: VlewXEtSGk41tYomV1rFAgJnbVqK0JFG
+      database: 0
+      timeout: 60000
+cache:
+  config:
+     entryTtl: 60
+     repositoryDetails:    
+       entryTtl: 30
+server:
+  port: 8083
+git:
+  api:
+    urlPrefix: https://api.github.com
