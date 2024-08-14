@@ -25,6 +25,6 @@ mvn spring-boot:run
 
 (NOTE: This application runs on port number 8083. You can modify the port number in configuration file. Please use credentials - username: DemoUser and password: Test12345 to login and use the application)
 
-Endpoint Details
+Endpoint Details 
 
 GET /repositories/{owner}/{repository­name}
